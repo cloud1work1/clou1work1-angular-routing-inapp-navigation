@@ -1,0 +1,11 @@
+<p>
+dashboard works!
+</p>
+<h3> Heros</h3>
+<div>
+    <ul>
+      <li *ngFor="let hero of heros">
+        <a routerLink="/dashboard/{{hero.id}}">{{hero.name}}</a>
+      </li>
+    </ul>
+</div>
